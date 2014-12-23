@@ -1,0 +1,45 @@
+.navbar-nav{
+	float:right;
+	font-size:20px;
+	margin:0;
+	@media (min-width:$screen-sm){
+		font-size:30px;
+}
+	li{
+		float:left !important;
+		padding: 5px 0px;
+	}
+}
+.navbar-header{
+	float:left;
+
+}
+.logo {
+	img{
+		height:50px;
+		max-width:100%;
+		@media (min-width:$screen-sm){
+			height: 70px;
+			padding: 5px 0px;
+		}
+	}
+	:hover{
+		background-color:#00ccff;
+	}
+}
+
+.nav-tog{
+	margin-left:15px;
+}
+
+.navbar-inverse{
+	background-color:#000;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color:#fff;
+	:hover{
+		color:#00ccff;
+	}
+}
+
