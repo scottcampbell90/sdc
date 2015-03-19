@@ -1,0 +1,71 @@
+/* Parlex Section
+************************************************/
+.bg-parlex-banner, .bg-parlex, .bg-parlex2, .bg-parlex3{
+	padding-top: 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.bg-parlex-banner{
+	background-image: url('../img/banner-portrait.jpg');
+
+}
+
+.bg-parlex {
+	background-image: url('../img/gyuza-banner.jpg');
+}
+
+.bg-parlex2 {
+	background-image: url('../img/enstein-banner.jpg');
+}
+
+.bg-parlex3 {
+	background-image: url('../img/rant-banner.jpg');
+}
+
+.parlex-back-banner{
+	height:300px;
+	padding-top: 60px;
+	background-color: rgba(0, 0, 0, 0.2);
+	h2,h3{
+		text-align: left;
+		line-height: inherit;
+	}
+	p{
+		font-size:18px;
+		text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+	}
+	@media(min-width:$screen-sm){
+		height:600px;
+		padding-top:150px;
+		p{
+		font-size:30px;
+
+		}
+		
+	}
+
+}
+
+.parlex-back{
+	padding: 60px 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.parlex-back, .parlex-back-banner {
+	color: #FDFDFD !important;
+	h2,h3{
+		text-shadow: 0 4px 4px rgba(0, 0, 0, 0.8);
+	}
+	@media (max-width:$screen-sm){
+		h1{
+			font-size:20px;
+		}
+		h2{
+			font-size:18px;
+		}
+	}
+}
+
+

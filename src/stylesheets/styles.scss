@@ -1,6 +1,11 @@
-@import "compass/css3";
-@import "vars";
-@import "_bootstrap";
-@import "_main";
-@import "_nav";
-@import "_sidebar";
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+
+//Custom CSS 
+@import "styles/_vars";
+@import "styles/_main";
+@import "styles/_nav";
+@import "styles/_paralax";
+@import "styles/_footer";
